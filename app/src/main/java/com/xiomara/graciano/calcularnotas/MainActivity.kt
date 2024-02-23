@@ -76,6 +76,10 @@ class MainActivity : AppCompatActivity() {
 
         progreso.progress = porcentaje
 
+        if(porcentaje >= 100){
+            finalizar.isEnabled = true
+        }
+
     }
 
 

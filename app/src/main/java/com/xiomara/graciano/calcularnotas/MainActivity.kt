@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun validarNombre(nombre: String): Boolean{
-        return !nombre.matches(Regex (".\\d.*"))
+        return !nombre.matches(Regex (".*\\d.*"))
     }
 
 }
